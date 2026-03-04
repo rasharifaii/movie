@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MovieBox</title>
+<link rel="stylesheet" href="movie.css">
+</head>
+<body>
+
+<nav>
+  <h1>🎬 Rasha MovieBox</h1>
+  <div>
+    <input type="text" id="search" placeholder="Search movie...">
+    <a href="favorite.html" class="fav-link">
+      ❤️ <span id="favCount">0</span>
+    </a>
+  </div>
+</nav>
+
+<section class="movies" id="movies"></section>
+
+<div class="modal" id="modal">
+  <div class="modal-content" id="modalContent"></div>
+</div>
+
+<script src="movie.js"></script>
+</body>
+</html>
